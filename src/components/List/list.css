@@ -1,0 +1,34 @@
+.boxList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  width: 50vw;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.linkRegister {
+  margin-bottom: 20px;
+  border: 2px solid grey;
+  padding: 3px;
+}
+
+.linkLogin {
+  margin-bottom: 20px;
+  border: 2px solid grey;
+  padding: 3px;
+}
+
+.linkLogout {
+  margin-bottom: 20px;
+  border: 2px solid grey;
+  padding: 3px;
+}
